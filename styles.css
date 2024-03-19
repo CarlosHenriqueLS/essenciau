@@ -37,6 +37,7 @@ nav ul {
   
 nav  ul li {
     display: inline; 
+    font-size: 30px;
 }
 
 nav  ul li a {
@@ -50,7 +51,7 @@ nav ul li.logo {
 }
   
 nav ul li.logo img {
-    width: 250px; 
+    width: 350px; 
     height: auto; 
 }
 
@@ -148,7 +149,7 @@ svg {
 .services {
     margin-top: -150px;
     background-color:#FBD8C9;
-    height: 1000px;
+    padding-bottom: 50px;  
 }
 
 .services h1 {
@@ -170,7 +171,7 @@ svg {
     margin-right: 160px;
 }
 
-.service1 {
+.service {
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -179,10 +180,29 @@ svg {
     margin-top: -100px;
 }
 
+.service2 {
+    margin-top: -300px;
+}
+
 .image-s1 {
+    background-image: url(midia/organic1.png);
+}
+
+.image-s2 {
+    background-image: url(midia/organic2.png);
+}
+
+.image-s3 {
+    background-image: url(midia/organic3.png);
+}
+
+.image-s3 img {
+    width: 70px;
+}
+
+.img-service {
     width: 300px;
     height: 200px;
-    background-image: url(midia/organic1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -192,16 +212,21 @@ svg {
     flex-direction: column;
 }
 
-.image-s1 img {
-    width: 100px;
-}
-
-.image-s1 p {
+.img-service p{
     color: white;
     text-align: center;
     font-size: 18px;
+    padding: 10px;
     width: 100px;
     font-family: var(--font-family-secondary);
+}
+
+.image-s3 p {
+    width: 110px;
+}
+
+.image-s1 img {
+    width: 100px;
 }
 
 .text-s1 {
@@ -225,5 +250,156 @@ svg {
     font-size: 1.5em;
     font-weight: 600;
     text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.302);
+}
+
+.seta2 {
+    text-align: center;
+    margin-left: 360px;
+    margin-top: -120px;
+}
+
+
+.text-s2 {
+    width: 700px;
+    height: 300px;
+    background-image: url(midia/organic-retangulo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    font-family: var(--font-family-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-s2 > p {
+    margin-top: 30px;
+    width: 500px;
+    color: #1A1A4F;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.302);
+}
+
+.seta3 {
+    text-align: center;
+    margin-right: 550px;
+    margin-top: -80px;
+}
+
+.service3 {
+    margin-top: -150px;
+}
+
+.img-fundo {
+    width: 100px;
+    transform: rotate(56deg);
+    margin-left: -32px;
+}
+
+.img-fundo img {
+    width: 150px;
+}
+
+.img-fundo2 {
+    width: 100px;
+    transform: rotate(56deg);
+    float: right;
+    margin-right: 70px;
+}
+
+.img-fundo2 img {
+    width: 150px;
+}
+
+.sobre-nos {
+    background-color: #08082B;
+}
+
+.sobre-nos-content {
+    background-color: #08082B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.img-sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.img-sobre-1 {
+    margin-bottom: 120px ;
+}
+
+.img-sobre-2 {
+    margin-top: 120px;
+}
+
+.img-sobre-nos img {
+    width: 250px;
+    height: 380px;
+    border: 5px solid #E24907;
+    border-radius: 15px;
+}
+
+.text-sobre-nos {
+    width: 600px;
+    color: white;
+    font-family: var(--font-family-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-sobre-nos h2 {
+    width: 250px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 200;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #E24907;
+}
+
+.text-sobre-nos h2 span {
+    font-weight: 500;
+}
+
+.text-sobre-nos p {
+    font-size: 25px;
+    font-weight: 200;
+    width: 500px;
+}
+
+.text-sobre-nos ul {
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.text-sobre-nos ul li {
+    padding-left: 10px;
+    list-style-image: url('midia/essenciau-logotipo-ul.png');
+    font-size: 28px;
+}
+
+.shine {
+    margin-left: 330px;
+    margin-bottom: -70px;
+}
+
+.seta4 {
+    display: block;
+    text-align: center;
+}
+
+.seta4 img {
+    width: 300px;
+    margin-bottom: -200px;
+    transform: scaleX(-1);
 }
 
