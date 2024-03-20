@@ -463,13 +463,25 @@ svg {
     box-shadow: 4px 4px #1A1A4F;
 }
 
-.item {
+.item h2{
+    font-family: var(--font-family-primary);
+    color: #0B0B43;
+    margin-bottom: 10px;
+}
+
+.item p {
     font-family: var(--font-family-primary);
     color: #0B0B43;
 }
 
 .item img {
     width: 160px;
+}
+
+.img-fundo3 img{
+    margin-top: -100px;
+    margin-left: 720px;
+    width: 100px;
 }
 
 
