@@ -315,6 +315,7 @@ svg {
 
 .sobre-nos {
     background-color: #08082B;
+    padding-bottom: 50px;
 }
 
 .sobre-nos-content {
@@ -404,4 +405,73 @@ svg {
     margin-bottom: -201px;
     transform: scaleX(-1);
 }
+
+.produtos-title {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100px;
+    background-color: #FED8C7;
+    border-radius: 41px;
+    font-family: var(--font-family-primary);
+    font-size: 2em;
+    color: #1A1A4F;
+    box-shadow: 5px 5px #1A1A4F;
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+.produtos-title h1 {
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.produtos {
+    z-index: 1;
+    margin-top: -50px;
+    background-image: url(midia/Untitled\ \(6\).png);
+    background-size: cover;
+}
+
+.itens {
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    margin-left: 150px;
+    padding-top: 80px;
+}
+
+
+.i1, .i2 {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    border-radius: 26px;
+    box-shadow: 4px 4px #1A1A4F;
+}
+
+.item {
+    font-family: var(--font-family-primary);
+    color: #0B0B43;
+}
+
+.item img {
+    width: 160px;
+}
+
+
+
 
