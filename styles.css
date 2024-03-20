@@ -318,7 +318,9 @@ svg {
 }
 
 .sobre-nos-content {
-    background-color: #08082B;
+    background-image: url(midia/bg-sobre.png);
+    background-position: center center;
+    background-size: contain;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -389,7 +391,7 @@ svg {
 
 .shine {
     margin-left: 330px;
-    margin-bottom: -70px;
+    margin-bottom: -50px;
 }
 
 .seta4 {
