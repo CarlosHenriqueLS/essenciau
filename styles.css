@@ -522,23 +522,22 @@ svg {
     height: 600px;
     font-family: var(--font-family-primary);
     padding: 20px;
-
 }
 
-.plano-1 {
+.plano-1, .plano-3 {
     background-color: #FE985B;
     box-shadow: -4px 4px #0B0B43;
     border-radius: 100px;
 }
 
-.plano-1 ul {
+.plano ul {
     margin: auto;
     list-style-type: none;
     padding: 0;
     width: 250px;
 }
 
-.plano-1 p.titulo {
+.plano-1 p.titulo, .plano-3 p.titulo {
     font-size: 1.3em;
     font-weight: 800;
     margin: 10px;
@@ -546,16 +545,16 @@ svg {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.278);
 }
 
-.plano-1 p.beneficio {
+.plano-1 p.beneficio, .plano-3 p.beneficio {
     color: white;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.278);
 }
 
-.card1-conteudo {
+.card1-conteudo, .card2-conteudo, .card3-conteudo {
     margin-top: 30px;
 }
 
-.banner-1 {
+.banner-1, .banner-3 {
     margin-left: -20px;
     margin-top: -20px;
     background-color: #FD7C2E;
@@ -565,29 +564,29 @@ svg {
     border-radius: 100px 100px 0px 0px;
 }
 
-.banner1-conteudo {
-    margin-top: 20px;
+.banner {
+    margin-top: 10px;
 }
 
-.banner1-conteudo h1 {
+.banner h1 {
     color: white;
     font-size: 2em;
-    padding: 5px;
+    padding: 10px;
 }
 
-.banner1-conteudo span {
+.banner  span{
     color: #0B0B43;
     font-size: 1.8em;
     font-weight: 700;
     padding: 10px;
 }
 
-.banner1-conteudo > .preço {
+.banner> .preço {
     color: white;
     font-size: 3em;
     font-weight: 800;
     text-shadow: 5px 4px black;    
-    padding: 5px;
+    padding: 10px;
 }
 
 .button-plano {
@@ -602,4 +601,56 @@ svg {
     font-weight: 600;
     box-shadow: 3px 3px white;
 }
+
+.plano-2 {
+    background-color: #1A1A4F;
+    box-shadow: 0px 4px #FE985B;
+    border-radius: 100px;
+    width: 310px;
+    height: 650px;
+}
+
+.banner-2 {
+    margin-left: -20px;
+    margin-top: -20px;
+    background-color: #313189;
+    padding: 20px;
+    width: 310px;
+    height: 130px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.banner2-conteudo span {
+    color: #FD7C2E;
+    text-shadow: 3px 4px #0B0B43;
+}
+
+.plano-2 ul {
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    width: 280px;
+}
+
+.plano-2 p.titulo {
+    font-size: 1.3em;
+    font-weight: 800;
+    margin: 10px;
+    color: #FE985B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.278);
+}
+
+.plano-2 p.beneficio {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.278);
+}
+
+.button-pre {
+    background-color: #FE985B;
+    color: #0B0B43;
+    font-weight: 800;
+    padding: 10px;
+}
+
+
 
