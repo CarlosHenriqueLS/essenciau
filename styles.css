@@ -484,6 +484,122 @@ svg {
     width: 100px;
 }
 
+.planos {
+    background-color: #FBD8C9;
+    text-align: center;
+}
 
+.text-planos {
+    text-align: center;
+    padding: 30px;
+    color: #08082B;
+    font-family: var(--font-family-primary);
+}
 
+.text-planos h2 {
+    font-size: 3em;
+}
+
+.text-planos p {
+    margin: auto;
+    font-size: 25px;
+    width: 700px;
+    padding: 20px;
+}
+
+.coroa {
+    margin: auto;
+}
+
+.cards-planos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plano {
+    width: 300px;
+    height: 600px;
+    font-family: var(--font-family-primary);
+    padding: 20px;
+
+}
+
+.plano-1 {
+    background-color: #FE985B;
+    box-shadow: -4px 4px #0B0B43;
+    border-radius: 100px;
+}
+
+.plano-1 ul {
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    width: 250px;
+}
+
+.plano-1 p.titulo {
+    font-size: 1.3em;
+    font-weight: 800;
+    margin: 10px;
+    color: #0B0B43;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.278);
+}
+
+.plano-1 p.beneficio {
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.278);
+}
+
+.card1-conteudo {
+    margin-top: 30px;
+}
+
+.banner-1 {
+    margin-left: -20px;
+    margin-top: -20px;
+    background-color: #FD7C2E;
+    padding: 20px;
+    width: 300px;
+    height: 130px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.banner1-conteudo {
+    margin-top: 20px;
+}
+
+.banner1-conteudo h1 {
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.banner1-conteudo span {
+    color: #0B0B43;
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.banner1-conteudo > .preço {
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-shadow: 5px 4px black;    
+    padding: 5px;
+}
+
+.button-plano {
+    margin: 20px;
+    border: 0;
+    padding: 8px;
+    font-size: 1.4em;
+    border-radius: 30px;
+    background-color: #0B0B43;
+    color: white;
+    font-family: var(--font-family-primary);
+    font-weight: 600;
+    box-shadow: 3px 3px white;
+}
 
