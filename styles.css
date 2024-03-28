@@ -113,6 +113,10 @@ nav ul li.logo img {
     align-items: flex-end;
 }
 
+.svg-header svg {
+    height: 100%;
+}
+
 
 .dados-empresa{
     margin-top: -350px;
@@ -702,7 +706,6 @@ nav ul li.logo img {
     color: white;
     font-family: var(--font-family-primary);
     font-size: 1.3em;
-    
 }
 
 .avaliacao {
@@ -730,13 +733,22 @@ nav ul li.logo img {
 }
 
 .clients {
-    background-color: #FE985B;
+    background-image: linear-gradient(to bottom, #fe985b, #e98246);
     height: 700px;
     position: relative;
     margin-top: -70px;
     z-index: 1;
     padding: 30px;
-    height: 800px;
+    height: 900px;
+    padding-bottom: 40px;
+}
+
+.coelho-clients img {
+    padding: 0;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    transform: rotate(-20deg);
 }
 
 .conteudo-clients {
@@ -770,13 +782,13 @@ nav ul li.logo img {
 }
 
 .depoimento p {
-    width: 300px;
+    width: 400px;
     margin: 20px;
     text-align: center;
     background-color: #FD7C2E;
     padding: 20px;
     border-radius: 20px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 400;
     box-shadow: 4px 4px #08082B;
 }
@@ -799,20 +811,6 @@ nav ul li.logo img {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .svg-clients {
     position: absolute;
     bottom: 0;
@@ -825,7 +823,281 @@ nav ul li.logo img {
 }
 
 .svg-clients svg {
+    position: relative;
     height: 100%;
+    z-index: 1;
+}
+
+.atend-personal {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    font-family: var(--font-family-primary);
+    margin-top: -100px;
+}
+
+.campos-atend input {
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.cfa-button2 button {
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    border: 2px solid  #1A1A4F;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #0B0B43;
+    font-family: var(--font-family-primary);
+    font-size: 1.3em;
+}
+
+.text-atend {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.text-atend h2 {
+    font-size: 2.1em;
+    font-weight: 500;
+    color: #0B0B43;
+}
+
+.text-atend p {
+    margin-top: 10px;
+    color: #0B0B43;
+    font-size: 1em;
+}
+
+.organic-atend img {
+    width: 150px;
+    margin-left: -10px;
+}
+
+.pata-gato img {
+    margin-top: -50px;
+    margin-bottom: -4px;
+    width: 400px;
+}
+
+.fale-conosco {
+    background-color: #FBD8C9;
+    padding: 20px;
+    font-family: var(--font-family-primary);
+}
+
+.first-container-fc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    gap: 10px;
+}
+
+.text-fale {
+    width: 500px;
+    text-align: center;
+}
+
+.text-fale h2 {
+    font-size: 2.5em;
+    color: #0B0B43;
+    border-bottom: 3px solid #0B0B43;
+}
+
+.text-fale p {
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-shadow: 3px 2px 0px #0B0B43;
+    color: white;
+}
+
+.fone-fale-img {
+    padding: 30px;
+}
+
+.fone-fale-img img{
+    width: 150px;
+}
+
+.invi {
+    width: 150px;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 3px 4px #0B0B43;
+}
+
+.cont h2{
+    font-size: 2em;
+    padding: 10px;
+}
+
+.cont span {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.endereco span {
+    text-align: center;
+    width: 200px;
+}
+
+.fc-icon {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: #FD7C2E;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.fc-icon img {
+    padding: 25px;
+    width: 100px;
+ }
+
+.ver-maps, .liga-fc { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #0B0B43;
+    width: 360px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: -32px;
+    border-radius: 0px 0px 30px 30px;
+
+ }
+
+.ver-maps a,  .liga-fc a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+ }
+
+ion-icon {
+    color: white;
+ }
+
+footer {
+    background-color: #1A1A4F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--font-family-primary);
+    padding: 30px;
+ }
+
+.logo-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3em;
+    color: white;
+}
+
+.logo-redes img {
+    width: 300px;
+}
+
+.logo-redes i {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+    color: white;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.listas ul {
+    list-style-type: none;
+}
+
+.listas ul li {
+    color:#FD7C2E;
+    padding: 20px;
+}
+
+.listas ul li p {
+    padding-bottom: 10px;
+}
+
+.titulo-footer {
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.direitos {
+    background-color: #1A1A4F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: var(--font-family-secondary);
+    padding: 10px;
+}
+
+.direitos a {
+    padding-right: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.direitos p {
+    padding-left: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
 }
 
 
@@ -833,30 +1105,6 @@ nav ul li.logo img {
 
 
 
-
-
-
-
-
-::-webkit-scrollbar {
-    width: 10px; /* Largura da barra de rolagem */
-  }
-
-  /* Cor de fundo da barra de rolagem */
-  ::-webkit-scrollbar-track {
-    background-color: #0B0B43;
-  }
-
-  /* Cor do indicador (barra) da barra de rolagem */
-  ::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 5px; 
-  }
-
-  /* Cor ao passar o mouse sobre a barra de rolagem */
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
 
 
 
