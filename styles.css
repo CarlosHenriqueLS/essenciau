@@ -194,6 +194,18 @@ nav ul li.logo img {
     font-size: 15px;
 }
 
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1.2s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 2s;
+}
+
 .services {
     margin-top: -150px;
     background-color:#FBD8C9;
@@ -573,6 +585,14 @@ nav ul li.logo img {
     align-items: center;
 }
 
+.cards-planos :nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.cards-planos :nth-child(3) {
+    transition-delay: 700ms;
+}
+
 .plano {
     width: 300px;
     height: 600px;
@@ -851,6 +871,7 @@ nav ul li.logo img {
     text-align: right;
     font-family: var(--font-family-primary);
     color: #0B0B43;
+
 }
 
 .text-clients h2 {
@@ -1023,6 +1044,18 @@ label {
     box-shadow: 3px 4px #0B0B43;
 }
 
+.cont :nth-child(2) {
+    transition-delay: 400ms;
+}
+
+.cont :nth-child(3) {
+    transition-delay: 500ms;
+}
+
+.cont :nth-child(4) {
+    transition-delay: 700ms;
+}
+
 .cont h2{
     font-size: 2em;
     padding: 10px;
@@ -1185,13 +1218,5 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
-
-
-
-
-
-
-
-
 
 

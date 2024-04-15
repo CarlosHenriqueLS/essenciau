@@ -13,3 +13,20 @@ $('a[href^="#"]').click(function(event) {
 });
 
 
+$(document).ready(function() {
+    var myObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                $(entry.target).addClass('show');
+
+                observer.unobserve(entry.target);
+            }
+        });
+    });
+
+    $('.hidden').each(function() {
+        myObserver.observe(this);
+    });
+});
+
+
