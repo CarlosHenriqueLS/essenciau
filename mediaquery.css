@@ -93,7 +93,7 @@
     width: 200px;
    }
 
-   .seta, .seta2, .seta3 {
+   .seta, .seta2, .seta3, .seta4 {
     display: none;
    }
 
@@ -124,8 +124,8 @@
    }
 
    .img-sobre-nos img {
-    width: 210px;
-    height: 330px;
+    width: 170px;
+    height: 250px;
    }
 
    .text-sobre-nos p, .text-sobre-nos ul{
