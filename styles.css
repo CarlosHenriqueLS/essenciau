@@ -129,6 +129,10 @@ nav ul li.logo img {
     align-items: center;
 }
 
+.logo-2 {
+    display: none;
+}
+
 .primary-text {
     font-family: var(--font-family-primary);
     font-size: 1.7em;
