@@ -614,6 +614,10 @@ nav ul li.logo img {
     padding: 30px;
     color: #08082B;
     font-family: var(--font-family-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .text-planos h2 {
