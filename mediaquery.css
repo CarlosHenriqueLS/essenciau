@@ -128,7 +128,11 @@
     height: 250px;
    }
 
-   .text-sobre-nos p, .text-sobre-nos ul{
+   .text-sobre-nos {
+    padding-bottom: 100px;
+   }
+
+   .text-sobre-nos p, .text-sobre-nos ul {
     width: 350px;
    }
 
