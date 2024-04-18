@@ -193,6 +193,10 @@
    }
 
    .app {
-    
+    width: 330px;
+   }
+
+   .avaliacao {
+    display: none;
    }
 }
