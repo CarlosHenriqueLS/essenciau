@@ -172,4 +172,17 @@
    .item p {
     font-size: 12px;
    }
+
+   .text-planos p {
+    font-size: 20px;
+    width: 300px;
+   }
+
+   .cards-planos {
+    flex-direction: column;
+   }
+
+   .plano {
+    margin: 30px;
+   }
 }
