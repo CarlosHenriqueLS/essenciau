@@ -163,8 +163,8 @@
    }
 
    .i1, .i2 {
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 230px;
    }
 
    .img-fundo3 {
@@ -190,5 +190,9 @@
 
    .plano {
     margin: 30px;
+   }
+
+   .app {
+    
    }
 }
