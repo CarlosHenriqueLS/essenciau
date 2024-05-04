@@ -223,6 +223,10 @@
     flex-direction: column;
    }
 
+   .depoimento p {
+    width: 300px;
+   }
+
    .depo2 {
     flex-direction: column-reverse;
    }
@@ -235,6 +239,7 @@
     z-index: 1;
     flex-direction: column;
     margin-top: 0;
+    padding-top: 10px;
    }
 
    .organic-atend {
@@ -276,5 +281,19 @@
     width: 260px;
     height: 50px;
     margin-top: 4px;
+   }
+
+   footer {
+    flex-direction: column;
+   }
+
+   .listas {
+    padding-top: 10px;
+    gap: 10px;
+   }
+
+   .direitos p{
+    font-size: 11px;
+    padding-left: 4px;
    }
 }
