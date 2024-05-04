@@ -111,6 +111,7 @@
 
    .service2 {
     margin-top: 0px;
+    flex-direction: column-reverse;
    }
 
    .service3 {
@@ -198,5 +199,82 @@
 
    .avaliacao {
     display: none;
+   }
+
+   .clients {
+    padding-top: 50px;
+    height: 100%;
+   }
+
+   .coelho-clients {
+    display: none;
+   }
+
+   .seta-depo {
+    display: none;
+   }
+
+   .conteudo-clients {
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .depoimento {
+    flex-direction: column;
+   }
+
+   .depo2 {
+    flex-direction: column-reverse;
+   }
+
+   .svg-clients {
+    display: none;
+   }
+
+   .atend-personal {
+    z-index: 1;
+    flex-direction: column;
+    margin-top: 0;
+   }
+
+   .organic-atend {
+    display: none;
+   }
+
+   .text-atend {
+    width: 300px;
+    font-size: 1.2em;
+   }
+
+   .pata-gato {
+    margin-bottom: 4px;
+   }
+
+   .contatos {
+    flex-direction: column;
+   }
+
+   .cont {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+   }
+
+   .fc-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+   }
+
+   .fc-icon img {
+    width: 50px;
+}
+
+   .ver-maps, .liga-fc {
+    width: 260px;
+    height: 50px;
+    margin-top: 4px;
    }
 }
